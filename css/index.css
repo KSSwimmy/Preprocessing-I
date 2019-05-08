@@ -130,7 +130,106 @@ table {
 * {
   box-sizing: border-box;
 }
+html {
+  font-size: 62.5%;
+}
 html,
 body {
   height: 100%;
+}
+/*----------------------------------------------------------------------------------------*/
+body {
+  font-family: Arial;
+  background-color: #e6e6fa;
+  font-size: 1.25rem;
+}
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  border: 2px solid #4b0082;
+}
+@media (max-width: 500px) {
+  .container {
+    width: 100%;
+  }
+}
+header {
+  width: 100%;
+  display: block;
+  font-size: 1.25rem;
+  background-color: #d8bfd8;
+  padding-bottom: 10px;
+}
+header nav ul {
+  list-style-type: none;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #4b0082;
+}
+header nav li {
+  float: left;
+}
+header li a {
+  display: block;
+  color: white;
+  text-align: center;
+  margin-right: 40px;
+  text-decoration: none;
+}
+header h1 {
+  font-size: 3.6rem;
+  margin-bottom: 5%;
+  font-family: Arial;
+}
+header h3 {
+  font-size: 2rem;
+}
+.Objectives {
+  padding: 10px 10px 0px 10px;
+  margin: 20px;
+}
+.top-section {
+  background-color: #c0acd8;
+  margin: 20px;
+  display: flex;
+}
+@media (max-width: 500px) {
+  .top-section {
+    flex-direction: column;
+  }
+  .top-section h3,
+  .top-section h4 {
+    margin-bottom: 20px;
+  }
+}
+.aboutme {
+  padding: 10px 10px 0px 10px;
+  margin: 20px;
+}
+.ed {
+  padding: 10px 10px 0px 10px;
+  margin: 20px;
+}
+.itt {
+  padding: 10px 10px 0px 10px;
+  margin: 20px;
+}
+.ex {
+  padding: 10px 10px 0px 10px;
+  margin: 20px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td,
+th {
+  border: 1px solid #d8bfd8;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #d8bfd8;
 }
